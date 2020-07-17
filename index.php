@@ -1,5 +1,6 @@
 <?php
 require_once ('./app/config/Routes.php');
+require ('./core/config.php');
 
 function __autoload($class_name) {
     if (file_exists('./core/classes/'.$class_name.'.php'))
